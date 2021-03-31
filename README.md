@@ -11,5 +11,5 @@ This is a resource prioritizing app. It uses users **weight** to select an user 
     user_id for this demo must have one of this values: user1, user2, ... user5
 3. One of users will be selected. user with more weight has more chance to selected. You can check logic in views.py file.
 
-### Video Demonstration:
+- Video Demonstration:
     * [Download](https://m-gh.info/danaxa.mp4)
