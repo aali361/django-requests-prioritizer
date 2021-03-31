@@ -21,8 +21,10 @@ class ResourceManager(APIView):
         # manually assing more weights to user0 (for test purpose)
         weights[0] = 0.99
 
-        choice = random.choices(users, weights)[0]
-        if choice == data['user_id']:
+        selected = random.choices(users, weights)[0]
+        # Call Resource handler Asynchronously (using Celery) and pass selected user to it
+        
+        if selected == data['user_id']:
             return Response({'accepted': True})
         else:
-            return Response({'accepted': False, 'choice': choice, 'users': users, 'weights': weights})
+            return Response({'accepted': False, 'selected': selected, 'users': users, 'weights': weights})
