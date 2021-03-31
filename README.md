@@ -1,11 +1,11 @@
 ### Information
 
-This is a resource prioritizing app. It uses users **weight** to select an user.
+This is a resource prioritizing app. It uses users **weight** to select an user request.
 
 - Features:
     ```
-    Implemented by Django and Django-Rest-Framework
-    Uses python random library to randomly choose user with weight consideration
+    1. Implemented by Django and Django-Rest-Framework
+    2. Uses python random library to randomly choose user with weight consideration
     ```
 
 - Usage Info:
