@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'Danaxa.urls'
+ROOT_URLCONF = 'danaxa.urls'
 
 TEMPLATES = [
     {
@@ -67,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Danaxa.wsgi.application'
+WSGI_APPLICATION = 'danaxa.wsgi.application'
 
 
 # Database
